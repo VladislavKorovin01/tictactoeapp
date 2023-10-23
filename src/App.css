@@ -1,3 +1,32 @@
 .App {
   text-align: center;
 }
+
+.board{
+  width:50%;
+  margin: 0 auto;
+  background-color: antiquewhite;
+  
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+.square{
+  border: 2px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: blueviolet;
+}
+
+.square:hover{
+  cursor: pointer;
+}
+
+h2{
+ font-size: 140px;
+}
